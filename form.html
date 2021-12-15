@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Misinformation: Form</title>
+<link rel="stylesheet" href="stylesheet.css">
+<meta charset="utf-8">
+<style>
+fieldset { width: 60%;
+		   margin: 20px;}
+fieldset input {float: right;
+	   margin-right: 60%}
+textarea {width: 60%;
+		  height: 120px;}
+.buttons { margin : 20px;
+		   padding: 5px;}
+</style>
+</head>
+<body>
+<header class="pagetopper">
+	<h1>Misinformation Online</h1>
+	<nav>
+		<a href="index.html">Home</a>
+		<a href="define.html">Defining Misinformation</a>
+		<a href="form.html" style="color: #CCCCCC">Where have you seen misinformation?</a>
+		<a href="twitter.html">Examples from Twitter</a>
+		<a href="facebook.html">Examples from Facebook</a>
+		<a href="news.html">Examples from News Outlets</a>
+	<nav>
+</header>
+<h2>Misinformation User Form</h2>
+<form method="post" action="thank.html">
+	<fieldset>
+		<legend>Personal Info</legend>
+		<label>First Name:<input type="text" name="fName" id="fName" required="required"></label><br><br>
+		<label>Last Name:<input type="text" name="lName" id="lName" required="required"></label><br><br>
+		<label>Email Address:<input type="email" name="email" id="email" required="required"></label><br><br>
+		<label>Phone:<input type="text" name="phone" id="phone"></label>
+	</fieldset>
+	<fieldset>
+		<legend>Interaction With Information Sources</legend>
+		<h4>What information sources do you use?</h4>
+		<label>Facebook<input type="checkbox" name="facebook" id="facebook"></label><br><br>
+		<label>Instagram<input type="checkbox" name="instagram" id="instagram"></label><br><br>
+		<label>Snapchat<input type="checkbox" name="snapchat" id="snapchat"></label><br><br>
+		<label>Twitter<input type="checkbox" name="twitter" id="twitter"></label><br><br>
+		<label>Tiktok<input type="checkbox" name="tiktok" id="tiktok"></label><br><br>
+		<label>News Outlet<input type="checkbox" name="news" id="news"></label><br><br>
+		<label for="found"><h4>Where did you see misinformation?</h4></label><br>
+		<select name="found" id="found">
+			<option value="fbook">Facebook</option>
+			<option value="igram">Instagram</option>
+			<option value="schat">Snapchat</option>
+			<option value="twitt">Twitter</option>
+			<option value="tik">Tiktok</option>
+			<option value="newsOut">News Outlet</option>
+		</select><br><br>
+		<label for="input"><h4>What did you see?</h4></label>
+		<textarea name="input" id="input" rows="4" cols="5"></textarea>
+	</fieldset>
+	<div class="buttons">
+	<input type="submit" value="submit">
+	<input type="reset" value="reset">
+	</div>
+</form>
+<footer>
+<p>B. Naylon Dec, 2021   ITEC 231 Section 4</p>
+</footer>
+</body>
+</html>

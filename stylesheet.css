@@ -1,0 +1,59 @@
+.flex {display: flex;
+	   flex-direction: row;}
+.pagetopper h1 {text-align: center;
+				font-size: 5em;
+				font-family: "Courier New", monospace;
+				margin: 0;}
+.left {display: flex;
+	   flex-direction: column;
+	   flex: 5;
+	   padding: 20px;
+	   font-size: 1.6em;
+	   background-color: #EEEEEE;
+	   margin-left: 10%;
+	   margin-top: 2%;
+	   margin-right: 2%;}
+.right {display: flex;
+		flex-direction: column;
+		flex: 5;
+		padding: 20px;
+		font-size: 1.6em;
+	    background-color: #EEEEEE;
+		margin-right: 10%;
+		margin-top: 2%;
+		margin-left: 2%;}
+img {max-width: 100%;
+		 height: auto;}
+.homeleft {display: flex;
+	   flex-direction: column;
+	   flex: 3;
+	   padding: 20px;}
+.homeright {display: flex;
+		flex-direction: column;
+		flex: 3;
+		padding: 20px;}
+.homecenter {flex: 4;
+		 padding: 20px;}
+.homeleft p {background-color: #EEEEEE;
+         font-size: 1.4em;
+         text-align: center}
+.homeright p {background-color: #EEEEEE;
+		  font-size: 1.4em;
+		  text-align: center;}
+nav {background-color: #111111;
+	 text-align: center;}
+nav a {font-size: 1.5em;
+	   text-decoration: none;
+	   padding: 10px;}
+nav a:link	{color: #FFFFFF;}
+nav a:visited {color: #FFFFFF;}
+nav a:hover {color: red;}
+body {background-color: #ffffff;
+	  margin: 0;
+	  margin-bottom: 4%;}
+footer {background-color: #000000;
+		color: #FFFFFF;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+		text-align: center;}
